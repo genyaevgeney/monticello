@@ -1,5 +1,6 @@
 node_modules
 template
+monticello/app
 package-lock.json
 *.psd
 *.zip
