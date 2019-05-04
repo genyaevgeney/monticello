@@ -409,6 +409,11 @@ body {
 	line-height: 30px;
 	color: #4b5562;
 }
+@media all and (min-width: 320px) and (max-width: 768px) {
+	.geka-news__text {
+		text-align: center;
+	}
+}
 .geka-news__author {
 	padding-top: 30px;
 }
