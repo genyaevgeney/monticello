@@ -6,6 +6,8 @@
 			slidesToShow: 3,
 			slidesToScroll: 1,
 			dots: true,
+			autoplay: true,
+			autoplaySpeed: 4000,
 			responsive: [
 			{
 				breakpoint: 1324,
@@ -23,15 +25,7 @@
 					arrows: false,
 				}
 			}
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-    ]
-			// autoplay: true,
-			// autoplaySpeed: 4000,
-			// centerMode: true,
-			// dots: true,
-			// focusOnSelect: true
+			]
 		});
 	})
 })(jQuery); 

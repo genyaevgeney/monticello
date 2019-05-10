@@ -27,6 +27,11 @@ body {
 	background-color: black;
 }
 
+div[role="tabpanel"] > div {
+	display: flex; 
+	justify-content: center; 
+}
+
 .geka-news {
 	min-height: 100vh;
 	padding: 170px 0;
@@ -98,6 +103,9 @@ body {
 		padding-top: 30px;
 
 		@include padding-hack();
+		@media all and (min-width: 320px) and (max-width: 500px) {
+			justify-content: center;
+		}
 	}
 
 	&__name {
@@ -105,12 +113,19 @@ body {
 		font-size: 18px;
 		color:#2c4058;
 		margin-bottom: 3px;
+		@media all and (min-width: 320px) and (max-width: 500px) {
+			font-size: 14px;
+			text-align: center;
+		}
 	}
 
 	&__date {
 		font-family: "Gotham-Book", sans-serif;
 		font-size: 14px;
 		color:#55b7ff;
+		@media all and (min-width: 320px) and (max-width: 500px) {
+			text-align: center;
+		}
 	}
 
 	&__user-info {
